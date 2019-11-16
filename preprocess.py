@@ -28,7 +28,7 @@ def get_jaccard_matrix(tweets):
             mat[j][i] = mat[i][j]
     return mat
 
-file = open('Health-Tweets/samplefoxnewshealth.txt')
+file = open('Health-Tweets/foxnewshealth.txt')
 lines = file.readlines()
 tweets = [process_tweet(line) for line in lines]
 
